@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;CACvB;;AACD,AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,aAAa;EAC/B,KAAK,EAAE,eAAe;CACvB",
+    "sources": [
+        "Texttransform.scss"
+    ],
+    "names": [],
+    "file": "Texttransform.css"
+}

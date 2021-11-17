@@ -1,0 +1,10 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.colrs {
+  background-color: var(--bs-red);
+  color: var(--bs-white);
+}
+/*# sourceMappingURL=Texttransform.css.map */
