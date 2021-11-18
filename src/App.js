@@ -4,7 +4,7 @@ import Texttransform from "./components/Texttransform/Texttransform";
 function App() {
   return (
     <>
-      <Navbar title="textTransform" home="Home" />
+      <Navbar title="textTransform " home="Home" />
       <div className="container">
         <Texttransform heading="Enter Your Text" />
       </div>

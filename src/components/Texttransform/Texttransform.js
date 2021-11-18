@@ -37,7 +37,7 @@ export default function Texttransform(props) {
         rows="6"
       ></textarea>
       <button className="insert btn btn-primary my-3 pd-8" onClick={Upclick}>
-        Convert to uppercase
+        Convrt to uppercase
       </button>
       <button className="btn ms-3 colrs pd-8 " onClick={clearSection}>
         Clear
