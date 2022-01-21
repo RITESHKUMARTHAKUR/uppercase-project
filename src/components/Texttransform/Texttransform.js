@@ -43,10 +43,7 @@ export default function Texttransform(props) {
         Clear
       </button>
       <div className="footer  bg-danger position-relative">
-        <p
-          className="
-             start-50 fixed-bottom"
-        >
+        <p className="footer-name fixed-bottom">
           Developed By - Ritesh ❤🧡❤
         </p>
       </div>

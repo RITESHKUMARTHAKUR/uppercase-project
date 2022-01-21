@@ -7,4 +7,13 @@
   background-color: var(--bs-red);
   color: var(--bs-white);
 }
+
+.footer-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=Texttransform.css.map */
