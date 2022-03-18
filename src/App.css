@@ -87,6 +87,17 @@ nav {
 nav li {
   list-style: none;
 }
+
+.data{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.data ul li{
+  color: orangered;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

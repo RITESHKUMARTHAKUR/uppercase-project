@@ -4,12 +4,15 @@ import { db } from "../../firebase";
 
 export default function Texttransform(props) {
   const Upclick = () => {
-    // console.log("upclick was clicked");
+
     let newtext = text.toUpperCase();
     setText(newtext);
     db.collection("added values").add({
       name: newtext,
+      date: new Date () ,
     });
+    //window.location.reload();
+
   };
 
   const handleOnchange = (event) => {
@@ -37,7 +40,7 @@ export default function Texttransform(props) {
         rows="6"
       ></textarea>
       <button className="insert btn btn-primary my-3 pd-8" onClick={Upclick}>
-        Convert to uppercase
+        Convert uppercase
       </button>
       <button className="btn ms-3 colrs pd-8 " onClick={clearSection}>
         Clear
