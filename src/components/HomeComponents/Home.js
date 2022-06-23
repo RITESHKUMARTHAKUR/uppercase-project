@@ -21,7 +21,7 @@ function App() {
     <>
       <Navbar title="textTransform " home="Home" />
       <div className="container">
-        <Texttransform heading="Enter Your Text" />
+        <Texttransform heading="Enter Your Text ✨✨✨" />
         <div className="data">
           {/* {Names?.map((data,i) =>{
             counter++;
