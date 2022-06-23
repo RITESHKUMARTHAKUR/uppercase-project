@@ -1,0 +1,39 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .lank {
+    color: tomato;
+  }
+  .navbar-brand {
+    color: red;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+  nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav li {
+    list-style: none;
+  }
+  
+  .data{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+  .data ul li{
+    color: orangered;
+  }
+  
+  
+  
+  
+  
+  
+  

@@ -7,7 +7,7 @@ export default function Texttransform(props) {
 
     let newtext = text.toUpperCase();
     setText(newtext);
-    db.collection("added values").add({
+    db.collection("added").add({
       name: newtext,
       date: new Date () ,
     });
