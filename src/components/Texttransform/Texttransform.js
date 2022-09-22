@@ -10,7 +10,9 @@ export default function Texttransform(props) {
     db.collection("ritesh").add({
       name: newtext,
       date: new Date () ,
-    });
+    }).then(() => {
+      window.location.reload();
+    })
     //window.location.reload();
 
   };

@@ -1,4 +1,4 @@
-import React  from "react";
+import React, { useEffect, useState }  from "react";
 import "./Home.css";
 import Navbar from "../Navbar";
 import Texttransform from "../Texttransform/Texttransform";
@@ -8,11 +8,12 @@ function App() {
   // const [Names ,setNames ] = useState([]);
 
   // useEffect (()=> {
-  //   db.collection("added values")
+  //   db.collection("ritesh")
   //   .get()
   //   .then((querySnapshot) => {
   //     const data = querySnapshot.docs.map((doc)=> doc.data());
   //     setNames(data);
+  //     console.log("data read!!!");
   //   });
   // }, []);
 
@@ -23,7 +24,7 @@ function App() {
       <div className="container">
         <Texttransform heading="Enter Your Text ✨✨✨" />
         <div className="data">
-          {/* {Names?.map((data,i) =>{
+          {/* {Names.map((data,i) =>{
             counter++;
             return(
               <ul>
